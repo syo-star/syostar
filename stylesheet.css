@@ -1,0 +1,144 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+header {
+  background-color:#26d0c9;
+  height:90px;
+  color:#fff;
+}
+
+.header-logo {
+  font-size:36px;
+  float:left;
+  margin:20px 40px;
+}
+
+.header-list li {
+  float:left; 
+  margin:33px 20px;
+}
+
+ /*ここからメインエリア　*/
+
+.main {
+ width:0px auto;
+}
+.top-title {
+  margin:100px 80px 90px 80px;
+}
+.top-title h1 {
+  font-size:140px;
+}
+.top-title span {
+  color:#ff4a4a;
+}
+
+.top-title h2 {
+  font-size:60px;
+  padding-bottom:0px;
+}
+
+/* ここからレッスンエリア　*/
+
+.menu {
+  width:auto;
+  height:500px;
+  margin-bottom:110px;
+}
+
+.menu h3 {
+  font-size:28px;
+  padding:15px;
+  border-bottom:2px solid #dee7ec;
+  margin:50px;
+}
+
+.lesson-list {
+  margin:0px 80px;
+}
+
+.lesson {
+  float:left;
+  margin-right:40px;
+}
+
+.lesson-icon {
+  margin-bottom:30px;
+} 
+
+.lesson-text {
+  font-size:24px;
+}
+
+/* ここからメッセージ入力エリア　*/
+
+.message {
+ width:0px auto;
+ margin-bottom:100px;
+}
+
+
+.message h3 {
+  font-size:28px;
+  padding-bottom:15px;
+  border-bottom:2px solid #dee7ec;
+  margin-bottom:50px;
+  margin-left:80px;
+}
+
+.title {
+  font-size:16px;
+  margin-left:80px;
+}
+input,textarea {
+  border:1px solid #dee7ec;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  width:400px;
+  margin-left:80px;
+}
+
+.btn {
+  font-size:18px;
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+/* ここからfooterエリア */
+
+footer {
+  background-color:#2f5167;
+  color:#fff;
+  height:120px;
+  padding:40px;
+}
+
+.footer-logo  {
+  font-size:32px;
+  float:left;
+}
+
+.footer-title {
+  float:right;
+}
+
+.footer-title li {
+  padding-bottom:20px;
+}
+
